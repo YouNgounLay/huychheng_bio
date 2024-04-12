@@ -1,8 +1,52 @@
-<!doctype html> 
+<!doctype html>
 <html>
-	<head> 
-	</head>
-	<body>
-		Hello World
-	</body>
+    <head>
+        <link href="./styles/home.css" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Index</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(function () {
+                $("#content").load("./pages/profile_info.html");
+            });
+        </script>
+    </head>
+    <body>
+        <div class="profile-info-container">
+            <div
+                class="profile-info-inner-container"
+                style="background-color: #ffeaec; height: 70%"
+            >
+                <div class="bio-info-container">
+                    <div
+                        class="circle-avatar"
+                        style="
+                            border-color: #f39a9d;
+                            background-image: url(https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-1/420096222_7020862577992748_6274185518097687675_n.jpg?stp=dst-jpg_p100x100&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=aWEcERfWFTEAb5xKrPM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent-syd2-1.xx&oh=00_AfAI7lwtg31oGCK3TX5em1H59gK8gc0C7YKEdAYvZ2VWNw&oe=661E8F1F);
+                        "
+                    ></div>
+                    <div class="info-container">
+                        <h1>Huy Chheng</h1>
+                        <span>Personal Interest: Anime, Photography</span>
+                        <span
+                            >Favorite Quote: A man trash is another man
+                            treasure</span
+                        >
+                    </div>
+                </div>
+            </div>
+            <div
+                class="profile-info-inner-container"
+                style="
+                    height: 30%;
+                    background-color: #f39a9d;
+                    border-top: 5px soid;
+                    border-color: #f39a9d;
+                "
+            >
+                bottom
+            </div>
+        </div>
+    </body>
 </html>
